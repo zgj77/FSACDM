@@ -1,0 +1,10 @@
+torch==2.7.1
+transformers==4.53.2
+diffusers==0.33.1
+datasets==3.6.0
+huggingface-hub==0.32.3
+accelerate==1.7.0
+numpy==1.26.4
+pillow==11.2.1
+scipy==1.15.3
+sewar==0.4.6

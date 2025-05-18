@@ -1,0 +1,36 @@
+{
+  "encoder": "assets/gpt-neo-125m",
+  "train_text_encoder": true,
+  "block_out_channels": [
+    128,
+    128,
+    256,
+    256,
+    512,
+    512
+  ],
+  "alignment_dim": 256,
+  "epochs": 100,
+  "learning_rate": 0.0001,
+  "warmup_steps": 500,
+  "diffusion_steps": 1000,
+  "num_negatives": 5,
+  "beta": 0.02,
+  "lambda": 0.005,
+  "temperature": 0.1,
+  "max_length": 1024,
+  "seed": 1234,
+  "gradient_checkpointing": true,
+  "mixed_precision": "no",
+  "gradient_accumulation_steps": 1,
+  "use_ccam": true,
+  "use_fsa": true,
+  "use_contrast": true,
+  "save_every": 1000,
+  "image_size": [
+    64,
+    320
+  ],
+  "channels": 1,
+  "batch_size": 16
+}
